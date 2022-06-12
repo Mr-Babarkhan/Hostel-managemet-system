@@ -1,0 +1,15 @@
+E:\vs project\Hostel management system\Hostel management system\bin\Debug\Hostel management system.exe.config
+E:\vs project\Hostel management system\Hostel management system\bin\Debug\Hostel management system.exe
+E:\vs project\Hostel management system\Hostel management system\bin\Debug\Hostel management system.pdb
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel management system.csprojResolveAssemblyReference.cache
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Form1.resources
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Properties.Resources.resources
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel management system.csproj.GenerateResource.Cache
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel management system.exe
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel management system.pdb
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Rooms.resources
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Student.resources
+E:\vs project\Hostel management system\Hostel management system\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Employee.resources
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Fees.resources
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Salary.resources
