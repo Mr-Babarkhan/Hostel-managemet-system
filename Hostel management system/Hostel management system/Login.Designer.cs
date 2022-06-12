@@ -55,9 +55,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(146, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 59);
+            this.label1.Size = new System.Drawing.Size(131, 59);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Log In";
+            this.label1.Text = "Login";
             // 
             // label2
             // 
@@ -89,7 +89,9 @@
             this.emailText.Name = "emailText";
             this.emailText.Size = new System.Drawing.Size(210, 26);
             this.emailText.TabIndex = 4;
-            this.emailText.Text = "Password";
+            this.emailText.Text = "Email";
+            this.emailText.Enter += new System.EventHandler(this.emailText_Enter);
+            this.emailText.Leave += new System.EventHandler(this.emailText_Leave);
             // 
             // label3
             // 
@@ -97,9 +99,9 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(42, 240);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 19);
+            this.label3.Size = new System.Drawing.Size(45, 19);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Password";
+            this.label3.Text = "Email";
             // 
             // button1
             // 
@@ -112,6 +114,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Log In";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Login
             // 

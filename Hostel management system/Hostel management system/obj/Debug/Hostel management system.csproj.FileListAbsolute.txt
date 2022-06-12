@@ -13,3 +13,4 @@ E:\vs project\Hostel management system\Hostel management system\bin\Debug\Bunifu
 E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Employee.resources
 E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Fees.resources
 E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Salary.resources
+E:\vs project\Hostel management system\Hostel management system\obj\Debug\Hostel_management_system.Login.resources

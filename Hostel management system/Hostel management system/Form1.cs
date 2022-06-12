@@ -53,7 +53,7 @@ namespace Hostel_management_system
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Rooms Myroom = new Rooms();
+           Rooms Myroom = new Rooms();
             Myroom.Show();
             this.Hide();
         }
