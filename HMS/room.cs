@@ -123,7 +123,7 @@ namespace Hostel_management_system
 
         private void RoomDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            room_number.Text= RoomDGV.SelectedRows[0].Cells[0].Value.ToString();
+            room_number.Text = RoomDGV.SelectedRows[0].Cells[0].Value.ToString();
         }
 
         private void room_number_OnValueChanged(object sender, EventArgs e)
@@ -153,10 +153,12 @@ namespace Hostel_management_system
             }
         }
 
+        private void room_number_OnValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }
 
-
-
-            
