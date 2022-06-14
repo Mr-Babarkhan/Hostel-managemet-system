@@ -62,6 +62,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(833, 91);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label7
             // 
@@ -119,6 +120,7 @@
             this.RoomDGV.Location = new System.Drawing.Point(452, 198);
             this.RoomDGV.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.RoomDGV.Name = "RoomDGV";
+            this.RoomDGV.RowHeadersVisible = false;
             this.RoomDGV.Size = new System.Drawing.Size(340, 337);
             this.RoomDGV.TabIndex = 3;
             // 

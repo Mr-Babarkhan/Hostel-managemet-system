@@ -59,37 +59,23 @@ namespace Hostel_management_system
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(NameText.Text == " " ||  emailText.Text == " ")
+
+            string username = NameText.Text;
+            string pass = emailText.Text;
+
+            if (username.Equals("Admin") && pass.Equals("123"))
             {
-                MessageBox.Show("please fill all fields");
+                Form1 Home = new Form1();
+                Home.Show();
+                this.Hide();
             }
             else
             {
-                con.Open();
-                SqlCommand cmd = new SqlCommand ("select count (*) from account where u_id = '"+NameText.Text+"'",con);
-                int a = (int)cmd.ExecuteScalar();
-                if (a > 0)
-                {
-                    MessageBox.Show("Record already exist");
-                }
-                else
-                {
-                    con.Close();
-                    con.Open();
-                    string haji = "insert into account (u_id,u_pass) values ('" + NameText.Text + "','"+emailText.Text+"')";
-                    SqlCommand cmd1 = new SqlCommand(haji, con);
-                    cmd1.ExecuteNonQuery();
-                    MessageBox.Show("saved...");
-                    NameText.Clear();
-                    emailText.Clear();
-                    con.Close();
-
-                    Form1 open = new Form1();
-                    open.Show();
-                    this.Hide();
-                        
-                }
+                MessageBox.Show("Check your username and password");
             }
+
+          
+                        
             
            
         }

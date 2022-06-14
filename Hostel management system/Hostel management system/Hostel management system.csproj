@@ -57,6 +57,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEL.Designer.cs">
+      <DependentUpon>DEL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs">
       <SubType>Form</SubType>
     </Compile>
